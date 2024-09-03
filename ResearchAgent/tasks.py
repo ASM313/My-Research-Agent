@@ -2,6 +2,7 @@ from crewai import Task
 from tools import tool
 from agents import news_researcher,news_writer
 
+
 # Research task
 research_task = Task(
   description=(
